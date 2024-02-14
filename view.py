@@ -6,7 +6,7 @@ class View(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Calculator")
-        self.geometry("400x600")
+        self.geometry("330x600")
         self.model = Model()
 
         self.display_var = tk.StringVar()
